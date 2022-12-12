@@ -59,7 +59,7 @@ public class populacaoNE {
                 System.out.println("Estado menos populoso "+ estadoMenosPopuloso+ "-"+ menorPopulacao);
             }
             if(entry.getValue().equals(maiorPopulacao)){
-                estadoMaisPopuloso = entry.getKey();
+                estadoMaisPopuloso = entry.getKey();\
                 System.out.println("Estado mais populoso "+ estadoMaisPopuloso+ "-"+ maiorPopulacao);
             }
         }
