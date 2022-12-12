@@ -19,7 +19,7 @@ public class MediaTemperatura {
             temperature.add(temp);
         }
         System.out.println("***********************");
-        
+        scan.close();
         //Mostra as temperaturas armazenadas
         temperature.forEach(t -> System.out.print(t + " "));
         // Calcula a temperatura média
