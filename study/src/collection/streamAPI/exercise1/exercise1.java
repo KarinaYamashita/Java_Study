@@ -59,16 +59,16 @@ public class exercise1 {
         //     }
         // });
         // Usando o comparing permite realizar comparação utilizando uma interface funcional
-        Set<Map.Entry<Integer,Contato>> set1 =  new TreeSet<>(Comparator.comparing(
-            new Function<Map.Entry<Integer,Contato>, String>() {
-                @Override
-                public String apply(Entry<Integer, Contato> contato) {
-                    return contato.getValue().getNome();
-                }
+        // Set<Map.Entry<Integer,Contato>> set1 =  new TreeSet<>(Comparator.comparing(
+        //     new Function<Map.Entry<Integer,Contato>, String>() {
+        //         @Override
+        //         public String apply(Entry<Integer, Contato> contato) {
+        //             return contato.getValue().getNome();
+        //         }
             
-        }));
+        // }));
         // Usando lambda
-        // Set<Map.Entry<Integer,Contato>> set1 =  new TreeSet<>(Comparator.comparing(contato -> contato.getValue().getNome()));
+        Set<Map.Entry<Integer,Contato>> set1 =  new TreeSet<>(Comparator.comparing(contato -> contato.getValue().getNome()));
         set1.addAll(agenda.entrySet());
         for (Entry<Integer,Contato> entry : set1) {
             System.out.println(entry.getKey()+ " - "+ entry.getValue().getNumero()+ " - "+ entry.getValue().getNome());
