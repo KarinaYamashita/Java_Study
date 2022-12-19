@@ -1,4 +1,4 @@
-package collection.calculadoraDeValorDePCBA.dominio;
+package calculadoraDeValorDePCBA.dominio;
 
 public abstract class Componentes {
     protected static final Double valorPadrao = 0.60d;

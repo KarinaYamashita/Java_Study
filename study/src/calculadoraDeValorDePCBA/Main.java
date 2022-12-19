@@ -1,9 +1,8 @@
-package collection.calculadoraDeValorDePCBA;
+package calculadoraDeValorDePCBA;
 
-//import collection.calculadoraDeValorDePCBA.dominio.Componentes;
-import collection.calculadoraDeValorDePCBA.dominio.ComponenteThroughHole;
-import collection.calculadoraDeValorDePCBA.dominio.ComponentesSMD;
-import collection.calculadoraDeValorDePCBA.dominio.Projeto;
+import calculadoraDeValorDePCBA.dominio.ComponenteThroughHole;
+import calculadoraDeValorDePCBA.dominio.ComponentesSMD;
+import calculadoraDeValorDePCBA.dominio.Projeto;
 
 public class Main {
     public static void main(String[] args) {

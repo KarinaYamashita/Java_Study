@@ -1,4 +1,4 @@
-package collection.calculadoraDeValorDePCBA.dominio;
+package calculadoraDeValorDePCBA.dominio;
 
 public class ComponenteThroughHole extends Componentes{
     public ComponenteThroughHole() {

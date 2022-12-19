@@ -1,4 +1,4 @@
-package collection.calculadoraDeValorDePCBA.dominio;
+package calculadoraDeValorDePCBA.dominio;
 
 import java.util.*;
 
