@@ -13,7 +13,7 @@ public class exercise2 {
     public static void main(String[] args) {
         List<String> numerosAleatorios = 
             Arrays.asList("1", "0" , "4", "1" , "2" , "3" , "9", "9","6","5");
-        System.out.println("Impreme os elementos da lista de String: ");
+        System.out.println("Imprime os elementos da lista de String: ");
         numerosAleatorios.forEach(System.out::println);
         
         System.out.println("Insira os 5 primeiros numeros em um Set: ");
